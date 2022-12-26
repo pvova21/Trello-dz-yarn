@@ -1,0 +1,9 @@
+import './css/style.css';
+import './js/app';
+import './js/addForm';
+import './js/Card';
+import './js/default';
+import './img/icons8-more-48.png';
+import './js/DnD';
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/js/all';
