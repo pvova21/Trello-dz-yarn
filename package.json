@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "babel src -d lib",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack --mode production",
     "lint": "eslint .",
     "coverage": "jest --coverage",
