@@ -202,6 +202,14 @@ p {
 
 .selected {
     opacity: 0.6;
+    transform: rotate(-10deg);
+}
+.copy {
+    display: block;
+    background: #ddd;
+    border: 1px dashed #aaa;
+    margin-bottom: 10px;
+    border-radius: 4px;
 }
 
 .unmovable {

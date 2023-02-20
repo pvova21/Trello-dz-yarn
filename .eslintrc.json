@@ -13,6 +13,8 @@
     },
     "rules": {
         "no-plusplus": "off",
+        "no-console": 0,
+        "no-alert": 0,
         "no-restricted-syntax": [
             "error",
             "LabeledStatement",

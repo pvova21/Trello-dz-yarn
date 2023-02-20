@@ -26,9 +26,10 @@ export default class Card {
     el.addEventListener('mouseover', () => {
       el.insertAdjacentElement('afterbegin', close);
 
-      close.addEventListener('click', () => {
+      close.addEventListener('click', (e) => {
+        const li = e.target.closest('LI');
         cardsArr.splice(card.id, 1);
-        cardsList.removeChild(el);
+        li.remove();
       });
     });
 
